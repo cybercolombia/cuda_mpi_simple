@@ -1,7 +1,7 @@
 # Compiler and flags
 NVCC = nvcc
 MPICXX = mpicxx
-CXXFLAGS = -O2
+CXXFLAGS = -O2 -L/usr/local/cuda/lib64/
 
 # Targets
 TARGET = mpi_cuda.exe
